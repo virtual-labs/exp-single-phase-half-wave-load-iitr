@@ -1,6 +1,5 @@
-# Procedure
 
-<h2 style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; padding-top: 4px;"> Single Phase Half Wave SCR With R Load </h2>
+<p style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; font-size: 22px; font-weight: bold;padding-bottom: 4px;"> Single Phase Half Wave SCR With R Load </p>
 
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 16px;text-align: justify;">
 <b>STEP 1:</b> Drag and drop the components in the workspace to create the circuit.<br /><br />
@@ -21,9 +20,11 @@
 <b>STEP 6:</b> Now, you can input different values as per your requirement to get the desired waveform.<br /><br />
 <b>STEP 7:</b> Repeat <b>Step 5</b> to again insert the reading into the table and now repeat <b>Steps 6 to 7</b> to take more readings.<br /><br />
 <b>STEP 8:</b> Click on the <b>PRINT</b> button to take out the print of the webpage.<br /><br />
-<b>STEP 9:</b> Click on the <b>RESET</b> button to reload the webpage.</br></div>
+<b>STEP 9:</b> Click on the <b>RESET</b> button to reload the webpage.</br>
 
-<h2 style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; padding-top: 4px;"> Single Phase Half Wave SCR With RL Load </h2>
+</div>
+
+<p style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; font-size: 22px; font-weight: bold;padding-bottom: 4px;"> Single Phase Half Wave SCR With RL Load </p>
 
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 16px;text-align: justify;">
 
@@ -47,7 +48,7 @@
 <b>STEP 8:</b> Click on the <b>PRINT</b> button to take out the print of the webpage.<br /><br />
 <b>STEP 9:</b> Click on the <b>RESET</b> button to reload the webpage.</br></div>
 
-<h2 style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; padding-top: 4px;"> Single Phase Half Wave SCR With RLE Load </h2>
+<p style="background-image: linear-gradient( 45deg, #ff512f 0%, #f09819 51%, #ff512f 100% );text-align:center;height: 31px; font-size: 22px; font-weight: bold;padding-bottom: 4px;"> Single Phase Half Wave SCR With RLE Load </p>
 
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 16px;text-align: justify;">
 
