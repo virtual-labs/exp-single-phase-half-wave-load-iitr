@@ -1,6 +1,6 @@
 
 <div style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;text-align: justify;">
-<h2>Introduction</h2>
+<h3>Introduction</h3>
 
 Single Phase Half Wave Controlled Rectifier is a rectifier circuit which converts AC input into DC output only
 for positive half cycle of the AC input supply. The word “controlled” means that, we can change the starting
@@ -19,7 +19,7 @@ load. The load may be purely resistive, Inductive or a combination of resistance
 ### 1. Single Phase Half Wave Controlled Rectifier with Resistive Load
 
 A logarithmic amplifier is an electronic circuit that produces an output that is proportional to the logarithm of the applied input. An op-amp based logarithmic amplifier produces a voltage at the output, which is proportional to the logarithm of the voltage applied to the resistor connected to its inverting terminal. The circuit diagram of op-amp based logarithmic amplifier is shown in figure 1. <br>
-<center><img src="images\Rloadtheory.PNG" style="-webkit-filter:contrast(120%);"></center>
+<center><img src="images\Rloadtheory.png" style="-webkit-filter:contrast(120%);"></center>
 <center><b>Fig. 1 Single Phase Half Wave Controlled Rectifier Circuit with R load</b></center><br>
 
 The circuit is energized by the line voltage or transformer secondary voltage, V = V<sub>max</sub> sin ωt as
@@ -109,7 +109,7 @@ $P_{dc} = V_{dc}.I_{dc} = \frac {V_{max}^2}{4 \pi^2 R}(1+ cos \alpha)^ \frac {1}
 
 ### 2. Single Phase Half Wave Controlled Rectifier with RL Load
 
-<center><img src="images\RL load.PNG " height="300" style="-webkit-filter:contrast(150%);"></center>
+<center><img src="images\RL load.png " height="300" style="-webkit-filter:contrast(150%);"></center>
 <center><b>Fig. 3 Single Phase Half Wave Controlled Rectifier Circuit with RL load</b></center><br>
 
 The circuit diagram of a single phase half wave controlled rectifier with RL load is shown above. This circuit
@@ -117,7 +117,7 @@ consists of a thyristor T, source Vs and RL load. The output voltage is the volt
 as V<sub>o</sub>. Output current is the current through the load and shown as i<sub>o</sub>.
 <br>
 
-<center><img src="images\RL load graph.PNG" height="500"></center><br>
+<center><img src="images\RL load graph.png" height="500"></center><br>
 <center><b>Fig. 4 Waveform of input voltage, firing pulse, output voltage, load current, voltage drop across thyristor </b></center>
 <br>
 The waveform of source voltage, load voltage, load current and voltage across thyristor is shown above.
@@ -234,7 +234,7 @@ $V_{or} = \frac {V_m}{2 \pi} \sqrt {[(\beta - \alpha)- \frac {1}{2}(sin 2 \beta 
 
 ### 3. Single Phase Half Wave Controlled Rectifier with RLE Load
 
-<center><img src="images\RLE load.PNG" style="-webkit-filter:contrast(120%);"></center>
+<center><img src="images\RlE load.png" style="-webkit-filter:contrast(120%);"></center>
 <center><b>Fig. 5 Single Phase Half Wave Controlled Rectifier Circuit with RLE load</b></center><br>
 
 A Single Phase Half Wave Controlled Rectifier Circuit with RLE load is shown in Fig. 5. The counter emf E in
@@ -259,7 +259,7 @@ $V_m \, sin \omega t = Ri_o + L\frac{di_o}{dt} + E.........(13)$
 
 </center><br>
 
-<center><img src="images\RLE graph.PNG"></center>
+<center><img src="images\RLE graph.png"></center>
 <center><b>Fig. 6 Voltage and current waveforms</b></center><br>
 
 The solution of this equation is made up of two components: namely steady-state current component i<sub>s</sub> and the transient current component i<sub>t</sub>. For conveninence, i<sub>s</sub> may be thought of as the sum of i<sub>s1</sub> and i<sub>s2</sub>, Where
