@@ -1,6 +1,4 @@
-{
-    "version": 2.0,
-    "questions":[
+[
 		{
 			"question": "Which of the following is control element in silicon controlled resistor (SCR)?",
 			"answers": {
@@ -52,7 +50,7 @@
 			"correctAnswer": "b"
 		}
 	]
-}
+
 
 
 

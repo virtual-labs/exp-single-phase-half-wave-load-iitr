@@ -1,6 +1,4 @@
-{
-    "version": 2.0,
-    "questions":[
+[
 		{
 			"question": "In a single phase half wave controlled rectifier the firing angle is 40⁰. If the load is purely resistive, find the conduction period of the SCR?",
 			"answers": {
@@ -52,4 +50,3 @@
 			"correctAnswer": "b"
 		}
 	]
-}
