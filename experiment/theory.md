@@ -52,7 +52,7 @@ $$ V_dc = \frac {1}{2\pi} [\int_\alpha^\pi V_max, sin , \omega t , d(\omega t)+\
 
 <center>
 
-$ V_{dc} = \frac {1}{2\pi} [-V_{max} \, cos \, \omega t]_{\alpha}^{\pi} = \frac {V_{max} }{2\pi}(1+cos \alpha )........(1)$
+$$ V_dc = \frac {1}{2\pi} [\int_\alpha^\pi V_{max}, sin , \omega t , d(\omega t)+\int_\pi^{2\pi}(0)d(\omega t)] $$
 
 </center>
 
