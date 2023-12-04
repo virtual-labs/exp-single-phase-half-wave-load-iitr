@@ -56,7 +56,7 @@ current and no voltage is applied to the load R.<br>
 
 <center>
 
-$$$$ V_dc = \frac {1}{2\pi} [\int_\alpha^\pi V_{max} sin \omega t d(\omega t)+\int_\pi^{2\pi}(0)d(\omega t)].......(1) $$$$
+$$ V_dc = \frac {1}{2\pi} [\int_\alpha^\pi V_{max} sin \omega t d(\omega t)+\int_\pi^{2\pi}(0)d(\omega t)].......(1) $$
 
 </center>
 
@@ -66,7 +66,7 @@ for α = 0 and α = π or 180°. The maximum output voltage is obtained when α 
 
 <center>
 
-$$$$ V_{dc \;max} =\frac {V_{max}}{\pi} .......(2) $$$$
+$$ V_{dc \;max} =\frac {V_{max}}{\pi} .......(2) $$
 
 </center>
 
@@ -74,7 +74,7 @@ $$$$ V_{dc \;max} =\frac {V_{max}}{\pi} .......(2) $$$$
 
 <center>
 
-$$$$ I_dc = \frac {V_dc} {R} = \frac {V_max} {2\pi R} (1+cos \alpha ).......(3) $$$$
+$$ I_dc = \frac {V_dc} {R} = \frac {V_max} {2\pi R} (1+cos \alpha ).......(3) $$
 
 </center>
 
