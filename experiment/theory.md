@@ -346,10 +346,10 @@ $$I_{or}=[\frac {1}{2 \pi R^2} \int_\alpha ^{\pi-\alpha}\{(V_m sin \omega t-E)^2
 Power delivered to load<br>
 
 <center>$$ P=I^2R+I_oE.......(19)$$</center><br>
-
+Supply power factor =
 <center>
 
-Supply power factor =$$I_or^2R+I_o \frac {E}{V_sI_{or}}$$
+$$I_or^2R+I_o \frac {E}{V_sI_{or}}.........(20)$$
 
 </center>
 
