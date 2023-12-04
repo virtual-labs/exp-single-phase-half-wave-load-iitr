@@ -66,7 +66,7 @@ for α = 0 and α = π or 180°. The maximum output voltage is obtained when α 
 
 <center>
 
-$$ V_{dc{max}} =\frac {V_{max}}{\pi} .......(2) $$
+$$ V_{dc(max)} =\frac {V_{max}}{\pi} .......(2) $$
 
 </center>
 
@@ -188,7 +188,7 @@ $$i_o = i_s + i_t =\frac {V_m}{Z} sin(\omega t-\phi) + Ae^{-(\frac {R}{L})t} ...
 
 </center>
 
-Constant A can be obtained from the boundary condition at &omega;t = &alpha;. At time $$t = \frac{\alpha}{\omega}$$, $$i_o = 0$$ . Thus from equation (8)
+Constant A can be obtained from the boundary condition at &omega;t = &alpha;. At time $$t = \frac{\alpha}{\omega}$$ $$i_o = 0$$ Thus from equation (8)
 
 <center>
 
