@@ -54,13 +54,13 @@ current and no voltage is applied to the load R.<br>
 
 <center>
 
-$V_{dc} = \frac {1}{2\pi} [\int_{\alpha}^{\pi} V_{max}\, sin \, \omega t \, d(\omega t)+\int_{\pi}^{2\pi}(0)d(\omega t)]$
+$$ V_dc = \frac {1}{2\pi} [\int_\alpha^\pi V_max, sin , \omega t , d(\omega t)+\int_\pi^{2\pi}(0)d(\omega t)] $$
 
 </center><br>
 
 <center>
 
-$ V_{dc} = \frac {1}{2\pi} [-V_{max} \, cos \, \omega t]_{\alpha}^{\pi} = \frac {V_{max} }{2\pi}(1+cos \alpha )........(1)$
+$$ V_dc = \frac {1}{2\pi} [\int_\alpha^\pi V_{max}, sin , \omega t , d(\omega t)+\int_\pi^{2\pi}(0)d(\omega t)] $$
 
 </center>
 
@@ -78,7 +78,7 @@ $V_{dc \;max} =\frac {V_{max}}{\pi} .......(2)$
 
 <center>
 
-$I_{dc} = \frac {V_{dc}}{R} = \frac {V_{max}}{2\pi R}(1+cos \alpha ).......(3)$
+$$ I_dc = \frac {V_dc} {R} = \frac {V_max} {2\pi R} (1+cos \alpha ).......(3) $$
 
 </center>
 
