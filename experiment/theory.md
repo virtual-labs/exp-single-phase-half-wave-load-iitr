@@ -56,7 +56,7 @@ current and no voltage is applied to the load R.<br>
 
 <center>
 
-$$ V_dc = \frac {1}{2\pi} [\int_\alpha^\pi V_{max} sin \omega t d(\omega t)+\int_\pi^{2\pi}(0)d(\omega t)].......(1) $$
+$$ V_{dc} = \frac {1}{2\pi} [\int_\alpha^\pi V_{max} ~ sin \omega t ~ d(\omega t)+\int_\pi^{2\pi}(0)d(\omega t)].......(1) $$
 
 </center>
 
@@ -66,7 +66,7 @@ for α = 0 and α = π or 180°. The maximum output voltage is obtained when α 
 
 <center>
 
-$$ V_{dc \;max} =\frac {V_{max}}{\pi} .......(2) $$
+$$ V_{dc{max}} =\frac {V_{max}}{\pi} .......(2) $$
 
 </center>
 
@@ -74,7 +74,7 @@ $$ V_{dc \;max} =\frac {V_{max}}{\pi} .......(2) $$
 
 <center>
 
-$$ I_dc = \frac {V_dc} {R} = \frac {V_max} {2\pi R} (1+cos \alpha ).......(3) $$
+$$ I_{dc} = \frac {V_{dc}} {R} = \frac {V_{max}} {2\pi R} (1+cos \alpha ).......(3) $$
 
 </center>
 
@@ -82,7 +82,7 @@ The rms value of load voltage is given by<br>
 
 <center>
 
-$$V_{L rms}=\frac {V_{max}}{2 \sqrt{\pi} } (\pi -\alpha + \frac {1}{2}sin \,2 \alpha)^\frac {1}{2}.......(4)$$
+$$V_{L rms}=\frac {V_{max}}{2 \sqrt{\pi} } (\pi -\alpha + \frac {1}{2}sin2 \alpha)^\frac {1}{2}.......(4)$$
 
 </center>
 
@@ -90,7 +90,7 @@ For firing angle α =0<br>
 
 <center>
 
-$$V_{L \, rms} = \frac {V_{max}}{2}.......(5)$$
+$$V_{Lrms} = \frac {V_{max}}{2}.......(5)$$
 
 </center>
 
@@ -98,7 +98,7 @@ The rms value of load current<br>
 
 <center>
 
-$$I_{L \, rms} = \frac {V_{L \, rms}}{R} = \frac {V_{L \, rms}}{2 R \sqrt{\pi}}(\pi -\alpha + \frac {1}{2}sin \,2 \alpha)^\frac {1}{2}......(6)$$
+$$I_{Lrms} = \frac {V_{Lrms}}{R} = \frac {V_{Lrms}}{2 R \sqrt{\pi}}(\pi -\alpha + \frac {1}{2}sin2 \alpha)^\frac {1}{2}......(6)$$
 
 </center>
 
@@ -153,7 +153,7 @@ The Voltage equation is :<br>
 
 <center>
 
-$$V_{m}\,sin \, \omega t = Ri_0+L \frac {dI_0}{dt}$$
+$$V_{m}sin\omega t = Ri_0+L \frac {dI_0}{dt}$$
 
 </center>
 
@@ -210,7 +210,7 @@ The average voltage V<sub>o</sub> is given by<br>
 
 <center>
 
-$$V_o = \frac {1}{2 \pi} \int_\alpha ^\beta V_m sin\, \omega t \, d(\omega t) =\frac {V_m}{2 \pi}(cos \alpha -cos \beta).......(10)$$
+$$V_o = \frac {1}{2 \pi} \int_\alpha ^\beta V_m sin\omega t d(\omega t) =\frac {V_m}{2 \pi}(cos \alpha -cos \beta).......(10)$$
 
 </center>
 
@@ -226,7 +226,7 @@ Rms Load voltage is<br>
 
 <center>
 
-$$V_{or} = [ \frac {1}{2 \pi } \int_\alpha ^\beta V_m^2 \, sin^2 \, \omega t.d(\omega t)]^{\frac {1}{2}}$$ 
+$$V_{or} = [ \frac {1}{2 \pi } \int_\alpha ^\beta V_m^2 sin^2\omega t.d(\omega t)]^{\frac {1}{2}}$$ 
 
 </center>
 
@@ -259,7 +259,7 @@ curve, KVL gives the voltage differential equation as <br>
 
 <center>
 
-$$V_m \, sin \omega t = Ri_o + L\frac{di_o}{dt} + E.........(13)$$
+$$V_m sin \omega t = Ri_o + L\frac{di_o}{dt} + E.........(13)$$
 
 </center><br>
 
@@ -285,7 +285,7 @@ $$i_{s2} = -(\frac{E}{R})$$
 
 The transient current i<sub>t</sub> is given by $$i_t = Ae^{-(\frac{R}{L})^t}$$<br>
 
-At &omega;t = &alpha;, $$i_o = 0$$, i.e., at $$t = \frac{\alpha}{\omega}$$, $$i_o = 0$$.
+At &omega;t = &alpha;, $$i_o = 0$$ i.e., at $$t = \frac{\alpha}{\omega}$$ $$i_o = 0$$
 
 <center>
 
