@@ -52,15 +52,21 @@ current and no voltage is applied to the load R.<br>
 
 <b>Analysis</b> : Average load voltage is given by<br>
 
+
+<<<<<<< HEAD
+$$V_{dc} = \frac {1}{2\pi} \left[\int_{\alpha}^{\pi} V_{max} ~ sin ~ \omega t ~ d(\omega t)+\int_{\pi}^{2\pi}(0)~d(\omega t)\right]$$
+
+</center>
+
 <center>
 
-$$ V_dc = \frac {1}{2\pi} [\int_\alpha^\pi V_max, sin , \omega t , d(\omega t)+\int_\pi^{2\pi}(0)d(\omega t)] $$
-
-</center><br>
+$$V_{dc} = \frac {1}{2\pi} [-V_{max} ~ cos \omega t]_{\alpha}^{\pi} = \frac {V_{max} }{2\pi}(1+cos \alpha )........(1)$$
+=======
 
 <center>
 
-$$ V_dc = \frac {1}{2\pi} [\int_\alpha^\pi V_{max}, sin , \omega t , d(\omega t)+\int_\pi^{2\pi}(0)d(\omega t)] $$
+$$ V_{dc} = \frac {1}{2\pi} [\int_\alpha^\pi V_{max} ~ sin \omega t ~ d(\omega t)+\int_\pi^{2\pi}(0)d(\omega t)].......(1) $$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
@@ -70,7 +76,11 @@ for α = 0 and α = π or 180°. The maximum output voltage is obtained when α 
 
 <center>
 
-$V_{dc \;max} =\frac {V_{max}}{\pi} .......(2)$
+<<<<<<< HEAD
+$$V_{dc ~ max} =\frac {V_{max}}{\pi} .......(2)$$
+=======
+$$ V_{dc(max)} =\frac {V_{max}}{\pi} .......(2) $$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
@@ -78,7 +88,11 @@ $V_{dc \;max} =\frac {V_{max}}{\pi} .......(2)$
 
 <center>
 
-$$ I_dc = \frac {V_dc} {R} = \frac {V_max} {2\pi R} (1+cos \alpha ).......(3) $$
+<<<<<<< HEAD
+$$I_{dc} = \frac {V_{dc}}{R} = \frac {V_{max}}{2\pi R}(1+cos \alpha ).......(3)$$
+=======
+$$ I_{dc} = \frac {V_{dc}} {R} = \frac {V_{max}} {2\pi R} (1+cos \alpha ).......(3) $$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
@@ -86,7 +100,11 @@ The rms value of load voltage is given by<br>
 
 <center>
 
-$V_{L rms}=\frac {V_{max}}{2 \sqrt{\pi} } (\pi -\alpha + \frac {1}{2}sin \,2 \alpha)^\frac {1}{2}.......(4)$
+<<<<<<< HEAD
+$$V_{L~rms}=\frac {V_{max}}{2 \sqrt{\pi} } \left(\pi -\alpha + \frac {1}{2}sin ~ 2 \alpha\right)^\frac {1}{2}.......(4)$$
+=======
+$$V_{L rms}=\frac {V_{max}}{2 \sqrt{\pi} } (\pi -\alpha + \frac {1}{2}sin2 \alpha)^\frac {1}{2}.......(4)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
@@ -94,7 +112,11 @@ For firing angle α =0<br>
 
 <center>
 
-$V_{L \, rms} = \frac {V_{max}}{2}.......(5)$
+<<<<<<< HEAD
+$$V_{L ~ rms} = \frac {V_{max}}{2}.......(5)$$
+=======
+$$V_{Lrms} = \frac {V_{max}}{2}.......(5)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
@@ -102,7 +124,11 @@ The rms value of load current<br>
 
 <center>
 
-$I_{L \, rms} = \frac {V_{L \, rms}}{R} = \frac {V_{L \, rms}}{2 R \sqrt{\pi}}(\pi -\alpha + \frac {1}{2}sin \,2 \alpha)^\frac {1}{2}......(6)$
+<<<<<<< HEAD
+$$I_{L ~ rms} = \frac {V_{L ~ rms}}{R} = \frac {V_{L ~ rms}}{2 R \sqrt{\pi}}\left(\pi -\alpha + \frac {1}{2}sin ~ 2 \alpha\right)^\frac {1}{2}......(6)$$
+=======
+$$I_{Lrms} = \frac {V_{Lrms}}{R} = \frac {V_{Lrms}}{2 R \sqrt{\pi}}(\pi -\alpha + \frac {1}{2}sin2 \alpha)^\frac {1}{2}......(6)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
@@ -110,7 +136,7 @@ Average output power is given by <br>
 
 <center>
 
-$P_{dc} = V_{dc}.I_{dc} = \frac {V_{max}^2}{4 \pi^2 R}(1+ cos \alpha)^ \frac {1}{2}.......(7)$
+$$P_{dc} = V_{dc}.I_{dc} = \frac {V_{max}^2}{4 \pi^2 R}(1+ cos \alpha)^ \frac {1}{2}.......(7)$$
 
 </center>
 
@@ -157,7 +183,11 @@ The Voltage equation is :<br>
 
 <center>
 
-$V_{m}\,sin \, \omega t = Ri_0+L \frac {dI_0}{dt}$
+<<<<<<< HEAD
+$$V_{m}~ sin \omega t = Ri_0+L \frac {dI_0}{dt}$$
+=======
+$$V_{m}sin\omega t = Ri_0+L \frac {dI_0}{dt}$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
@@ -166,7 +196,7 @@ transient component i<sub>t</sub>. Here i<sub>s</sub> is given by<br>
 
 <center>
 
-$i_{s} = \frac {V_m}{\sqrt{ (R^2+X^2)}}sin(\omega t- \phi)$
+$$i_{s} = \frac {V_m}{\sqrt{ (R^2+X^2)}}sin(\omega t- \phi)$$
 
 </center>
 
@@ -174,7 +204,7 @@ The transient component i<sub>t</sub> can be obtained from force free equation<b
 
 <center>
 
-$Ri_t +  L\frac{di_t}{dt} = 0$
+$$Ri_t +  L\frac{di_t}{dt} = 0$$
 
 </center>
 
@@ -182,21 +212,29 @@ Its solution gives,<br>
 
 <center>
 
-$i_t = A e^{-(\frac{R}{L})t}$
+<<<<<<< HEAD
+$$i_t = A e^{-\left(\frac{R}{L}\right)t}$$
+=======
+$$i_t = A e^{-(\frac{R}{L})t}$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
 <center>
 
-$i_o = i_s + i_t =\frac {V_m}{Z} sin(\omega t-\phi) + Ae^{-(\frac {R}{L})t} .........(8)$
+<<<<<<< HEAD
+$$i_o = i_s + i_t =\frac {V_m}{Z} sin(\omega t-\phi) + Ae^{-\left(\frac {R}{L}\right)t} .........(8)$$
+=======
+$$i_o = i_s + i_t =\frac {V_m}{Z} sin(\omega t-\phi) + Ae^{-(\frac {R}{L})t} .........(8)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
-Constant A can be obtained from the boundary condition at &omega;t = &alpha;. At time $t = \frac{\alpha}{\omega}$, $i_o = 0$ . Thus from equation (8)
+Constant A can be obtained from the boundary condition at &omega;t = &alpha;. At time $$t = \frac{\alpha}{\omega}$$ $$i_o = 0$$ Thus from equation (8)
 
 <center>
 
-$A = -\frac {V_m}{Z} sin(\alpha - \phi )e^{\frac {R \alpha}{L \omega}}$
+$$A = -\frac {V_m}{Z} sin(\alpha - \phi )e^{\frac {R \alpha}{L \omega}}$$
 
 </center>
 
@@ -204,7 +242,11 @@ $A = -\frac {V_m}{Z} sin(\alpha - \phi )e^{\frac {R \alpha}{L \omega}}$
 
 <center>
 
-$i_o = \frac {V_m}{Z}  sin(\omega t- \phi) -\frac {V_m}{Z}sin(\alpha -\phi ) exp \{-\frac{R}{\omega L}(\omega t-\alpha )\}.......(9)$
+<<<<<<< HEAD
+$$i_o = \frac {V_m}{Z}  sin(\omega t- \phi) -\frac {V_m}{Z}sin(\alpha -\phi ) exp \{-\frac{R}{\omega L}(\omega t-\alpha)\}.......(9)$$
+=======
+$$i_o = \frac {V_m}{Z}  sin(\omega t- \phi) -\frac {V_m}{Z}sin(\alpha -\phi ) exp \{-\frac{R}{\omega L}(\omega t-\alpha )\}.......(9)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
@@ -214,7 +256,11 @@ The average voltage V<sub>o</sub> is given by<br>
 
 <center>
 
-$V_o = \frac {1}{2 \pi} \int_\alpha ^\beta V_m sin\, \omega t \, d(\omega t) =\frac {V_m}{2 \pi}(cos \alpha -cos \beta).......(10)$
+<<<<<<< HEAD
+$$V_o = \frac {1}{2 \pi} \int_\alpha ^\beta V_m sin \omega t ~ d(\omega t) =\frac {V_m}{2 \pi}(cos \alpha -cos \beta).......(10)$$
+=======
+$$V_o = \frac {1}{2 \pi} \int_\alpha ^\beta V_m sin\omega t d(\omega t) =\frac {V_m}{2 \pi}(cos \alpha -cos \beta).......(10)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
@@ -222,7 +268,7 @@ The average load currrent I<sub>o</sub> is given by <br>
 
 <center>
 
-$I_o = \frac {V_m}{2 \pi R}(cos \alpha -cos \beta)$
+$$I_o = \frac {V_m}{2 \pi R}(cos \alpha -cos \beta)$$
 
 </center>
 
@@ -230,13 +276,21 @@ Rms Load voltage is<br>
 
 <center>
 
-$V_{or} = [ \frac {1}{2 \pi } \int_\alpha ^\beta V_m^2 \, sin^2 \, \omega t.d(\omega t)]^{\frac {1}{2}}$ 
+<<<<<<< HEAD
+$$V_{or} = \left[ \frac {1}{2 \pi } \int_\alpha ^\beta V_m^2 ~ sin^2 ~ \omega t.d(\omega t)\right]^{\frac {1}{2}}$$ 
+=======
+$$V_{or} = [ \frac {1}{2 \pi } \int_\alpha ^\beta V_m^2 sin^2\omega t.d(\omega t)]^{\frac {1}{2}}$$ 
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
-<center><br>
+<center>
 
-$V_{or} = \frac {V_m}{2 \pi} \sqrt {[(\beta - \alpha)- \frac {1}{2}(sin 2 \beta - sin 2 \alpha )]}........(11)$
+<<<<<<< HEAD
+$$V_{or} = \frac {V_m}{2 \pi} \sqrt {\left[(\beta - \alpha)- \frac {1}{2}(sin 2 \beta - sin 2 \alpha )\right]}........(11)$$
+=======
+$$V_{or} = \frac {V_m}{2 \pi} \sqrt {[(\beta - \alpha)- \frac {1}{2}(sin 2 \beta - sin 2 \alpha )]}........(11)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
@@ -250,7 +304,11 @@ the load may be due to a battery or a DC motor. The minimum value of firing angl
 
 <center>
 
-$\theta_1 = sin^{-1}(\frac{E}{V_m}).......(12)$
+<<<<<<< HEAD
+$$\theta_1 = sin^{-1}\left(\frac{E}{V_m}\right).......(12)$$
+=======
+$$\theta_1 = sin^{-1}(\frac{E}{V_m}).......(12)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
@@ -263,9 +321,13 @@ curve, KVL gives the voltage differential equation as <br>
 
 <center>
 
-$V_m \, sin \omega t = Ri_o + L\frac{di_o}{dt} + E.........(13)$
+<<<<<<< HEAD
+$$V_m ~ sin \omega t = Ri_o + L\frac{di_o}{dt} + E.........(13)$$
+=======
+$$V_m sin \omega t = Ri_o + L\frac{di_o}{dt} + E.........(13)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
-</center><br>
+</center>
 
 <center><img src="images\RLE graph.png"></center>
 <center><b>Fig. 6 Voltage and current waveforms</b></center><br>
@@ -275,7 +337,7 @@ i<sub>s1</sub> is the steady state current due to ac source voltage acting alone
 
 <center>
 
-$i_{s1} = \frac{V_m}{Z} sin(\omega t-\phi)$
+$$i_{s1} = \frac{V_m}{Z} sin(\omega t-\phi)$$
 
 </center>
 
@@ -283,31 +345,51 @@ If only E were present, then steady state current i<sub>s2</sub> would be given 
 
 <center>
 
-$i_{s2} = -(\frac{E}{R})$
+<<<<<<< HEAD
+$$i_{s2} = -\left(\frac{E}{R}\right)$$
+=======
+$$i_{s2} = -(\frac{E}{R})$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
-</center><br>
+</center>
 
-The transient current i<sub>t</sub> is given by $i_t = Ae^{-(\frac{R}{L})^t}$<br>
+<<<<<<< HEAD
+The transient current i<sub>t</sub> is given by $i_t = Ae^{-\left(\frac{R}{L}\right)^t}$<br>
+=======
+The transient current i<sub>t</sub> is given by $$i_t = Ae^{-(\frac{R}{L})^t}$$<br>
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
-At &omega;t = &alpha;, $i_o = 0$, i.e., at $t = \frac{\alpha}{\omega}$, $i_o = 0$.
+At &omega;t = &alpha;, $$i_o = 0$$ i.e., at $$t = \frac{\alpha}{\omega}$$ $$i_o = 0$$
 
 <center>
 
-$A = [\frac {E}{R}-\frac {V_m}{Z} sin(\alpha - \phi )]e^{-\frac{Ra}{L \omega}}$
+<<<<<<< HEAD
+$$A = \left[\frac {E}{R}-\frac {V_m}{Z} sin(\alpha - \phi )\right]e^{-\frac{Ra}{L \omega}}$$
+=======
+$$A = [\frac {E}{R}-\frac {V_m}{Z} sin(\alpha - \phi )]e^{-\frac{Ra}{L \omega}}$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
 <center>
 
-$i_o =\frac {V_m}{Z}[sin(\omega t- \phi )-sin( \alpha - \phi)exp\{-\frac {R}{\omega L}(\omega t- \alpha )\}]-\frac {E}{R}[1-exp\{-\frac{R}{ \omega L}(\omega t- \alpha)\}].......(14)$
+<<<<<<< HEAD
+$$i_o =\frac {V_m}{Z}\left[sin(\omega t- \phi )-sin( \alpha - \phi)exp\{-\frac {R}{\omega L}(\omega t- \alpha )\}\right]-\frac {E}{R}\left[1-exp\{-\frac{R}{ \omega L}(\omega t- \alpha)\}\right].......(14)$$
+=======
+$$i_o =\frac {V_m}{Z}[sin(\omega t- \phi )-sin( \alpha - \phi)exp\{-\frac {R}{\omega L}(\omega t- \alpha )\}]-\frac {E}{R}[1-exp\{-\frac{R}{ \omega L}(\omega t- \alpha)\}].......(14)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
-Equation 11 is applicable for &alpha; &le; &omega;t &ge; &beta;. The extinction angle &beta; depends upon load emf E, firing angle &alpha; and the load impedence angle &phi; the average load current $I_o$ is given by<br>
+Equation 11 is applicable for &alpha; &le; &omega;t &ge; &beta;. The extinction angle &beta; depends upon load emf E, firing angle &alpha; and the load impedence angle &phi; the average load current $$I_o$$ is given by<br>
 
 <center>
 
-$I_o = \frac{1}{2 \pi R}[V_m(cos \alpha -cos \beta )-E(\beta-\alpha)]..........(15)$
+<<<<<<< HEAD
+$$I_o = \frac{1}{2 \pi R} \bigg[V_m(cos \alpha -cos \beta )-E(\beta-\alpha) \bigg]..........(15)$$
+=======
+$$I_o = \frac{1}{2 \pi R}[V_m(cos \alpha -cos \beta )-E(\beta-\alpha)]..........(15)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
@@ -315,18 +397,26 @@ Average load voltage V<sub>o</sub> is given by<br>
 
 <center>
 
-$ V_o= E+I_oR=E+ \frac {1}{2 \pi}[2V_m sin(\alpha + \frac{\gamma}{2})sin(\frac {\gamma}{2})-\gamma.E]$
+<<<<<<< HEAD
+$$V_o= E+I_oR=E+ \frac {1}{2 \pi}\bigg[2V_m sin\left(\alpha + \frac{\gamma}{2}\right)sin\left(\frac {\gamma}{2}\right)-\gamma.E\bigg]$$
+=======
+$$ V_o= E+I_oR=E+ \frac {1}{2 \pi}[2V_m sin(\alpha + \frac{\gamma}{2})sin(\frac {\gamma}{2})-\gamma.E]$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
-</center><br>
+</center>
 
 <center>
 
-$ V_o=E(1-\frac {\gamma} {2 \pi})+\frac {V_m} {\pi} sin(\alpha +\frac {\gamma}{2})sin(\frac {\gamma}{2})..........(16)$
+<<<<<<< HEAD
+$$V_o=E\left(1-\frac {\gamma} {2 \pi}\right)+\frac {V_m} {\pi} sin\left(\alpha +\frac {\gamma}{2}\right)sin \left(\frac {\gamma}{2}\right)..........(16)$$
+=======
+$$ V_o=E(1-\frac {\gamma} {2 \pi})+\frac {V_m} {\pi} sin(\alpha +\frac {\gamma}{2})sin(\frac {\gamma}{2})..........(16)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
-</center><br>
+</center>
 
 In case &beta; is made equal to (&gamma;+&alpha;) in the above expression, Equation (15) can be obtained.
-If load inductance L is zero in Fig. 5, then extinction angle &beta; = $\theta_2$ and &gamma; = &beta; - &alpha;
+If load inductance L is zero in Fig. 5, then extinction angle &beta; = $$\theta_2$$ and &gamma; = &beta; - &alpha;
  = &theta;<sub>2</sub> - &alpha; but &theta;<sub>2</sub> = &pi; - &theta;<sub>1</sub>.<br>
 
 This gives &beta; = &theta;<sub>2</sub> = &pi; - &theta;<sub>1</sub> and &gamma; = &pi; - &theta;<sub>1</sub> - &alpha;.
@@ -334,26 +424,46 @@ Putting this in Equation (15), we get average load current I<sub>o</sub> as unde
 
 <center>
 
-$I_o = \frac {1}{ 2 \pi R}[V_m (cos \alpha +cos  \theta_1)-E( \pi - \theta_1- \alpha)].......(17)$
+<<<<<<< HEAD
+$$I_o = \frac {1}{ 2 \pi R} \bigg[V_m (cos \alpha +cos  \theta_1)-E( \pi - \theta_1- \alpha)\bigg].......(17)$$
+=======
+$$I_o = \frac {1}{ 2 \pi R}[V_m (cos \alpha +cos  \theta_1)-E( \pi - \theta_1- \alpha)].......(17)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
-</center><br>
+</center>
 
 For no inductance in the load circuit, &beta; = &pi; - &alpha;. The RMS value of load current for L = 0 is obtained
 as under:<br>
 
 <center>
 
-$I_{or}=[\frac {1}{2 \pi R^2} \int_\alpha ^{\pi-\alpha}\{(V_m sin \omega t-E)^2.d(\omega t)\}]^\frac {1}{2}.........(18)$
+<<<<<<< HEAD
+$$I_{or}=\left[\frac {1}{2 \pi R^2} \int_\alpha ^{\pi-\alpha}\left\{(V_m sin \omega t-E)^2.d(\omega t)\right\}\right]^\frac {1}{2}.........(18)$$
+=======
+$$I_{or}=[\frac {1}{2 \pi R^2} \int_\alpha ^{\pi-\alpha}\{(V_m sin \omega t-E)^2.d(\omega t)\}]^\frac {1}{2}.........(18)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
-</center><br>
+</center>
 
 Power delivered to load<br>
 
-<center>$ P=I^2R+I_oE.......(19)$</center><br>
+<<<<<<< HEAD
+<center>
+
+$$P=I^2R+I_oE.......(19)$$
+
+</center>
 
 <center>
 
-Supply power factor =$I_or^2R+I_o \frac {E}{V_sI_{or}}$
+$$Supply~power~factor = I_or^2R+I_o \frac {E}{V_sI_{or}}$$
+=======
+<center>$$ P=I^2R+I_oE.......(19)$$</center><br>
+Supply power factor =
+<center>
+
+$$I_or^2R+I_o \frac {E}{V_sI_{or}}.........(20)$$
+>>>>>>> cfef4a596eb37243a7f09c2b89085ed55f0c03e9
 
 </center>
 
